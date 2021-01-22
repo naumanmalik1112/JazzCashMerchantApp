@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="MSISDN" value="03400109118"/>
+    <parameter name="udid" value="R58N208WLTE"/>
+    <parameter name="device" value="SamsungA51"/>
+    <parameter name="platform" value="10"/>
+    <classes>
+      <class name="Tests.LoginwithPIN">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tests.LoginwithPIN -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
